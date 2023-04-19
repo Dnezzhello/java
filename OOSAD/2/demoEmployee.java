@@ -9,7 +9,7 @@ public class demoEmployee {
         m.Data();
         System.out.println("His Base salary = " + m.getSalary() + "\n");
 
-        Staff s = new Staff("Soukjai", 1800000, 2018, 700000);
+        Staff s = new Staff("Soukjai", 1800000, 2018, 10, 50000);
         s.Data();
         System.out.println("His salary = " + s.getSalary());
     }
