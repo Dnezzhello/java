@@ -6,14 +6,9 @@ public class Manager extends Employee {
         super(n, s, h);
     }
 
-    public Manager(double s)
+    public void setBonus(double b)
     {
-        super(s);
-    }
-
-    public void setBonus(double bonus)
-    {
-        this.bonus = bonus;
+        b = bonus;
     }
 
     public double getSalary()

@@ -15,7 +15,7 @@ public class Employee {
     public void Data()
     {
         System.out.println("Employee's Name :: " + eName);
-        System.out.println(eName + " has worked since " + hireYear);
+        System.out.println(eName + " has worked at this company since " + hireYear);
     }
 
     public double getSalary()
