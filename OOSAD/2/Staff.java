@@ -1,18 +1,16 @@
 public class Staff extends Employee {
 
     private int OT;
-    private double rate;
 
-    public Staff(String n, double s, int h, int OT, double rate)
+    public Staff(String n, double s, int h, int OT)
     {
         super(n, s, h);
         this.OT = OT;
-        this.rate = rate;
     }
 
     public double getSalary()
     {
         double baseSalary = super.getSalary();
-        return baseSalary + OT*rate;
+        return baseSalary + OT;
     }
 }

@@ -8,7 +8,7 @@ public class Manager extends Employee {
 
     public void setBonus(double b)
     {
-        b = bonus;
+        bonus = b;
     }
 
     public double getSalary()
