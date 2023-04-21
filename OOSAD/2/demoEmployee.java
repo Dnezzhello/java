@@ -4,6 +4,7 @@ public class demoEmployee {
         Employee e = new Employee("Khamdee", 2000000, 2020);
         e.Data();
         System.out.println("His salary = " + e.getSalary() + "\n");
+        
         Manager m = new Manager("Khamlar", 5000000, 2019);
         m.setBonus(600000);
         m.Data();

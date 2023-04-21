@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoPolymorphism",
+            "request": "launch",
+            "mainClass": "DemoPolymorphism",
+            "projectName": "OOSAD_23416542"
+        },
+        {
+            "type": "java",
+            "name": "DemoPerson",
+            "request": "launch",
+            "mainClass": "DemoPerson",
+            "projectName": "OOSAD_23416542"
+        },
+        {
+            "type": "java",
+            "name": "demoEmployee",
+            "request": "launch",
+            "mainClass": "demoEmployee",
+            "projectName": "OOSAD_23416542"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
