@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoShowchoir",
+            "request": "launch",
+            "mainClass": "DemoShowchoir",
+            "projectName": "OOSAD_c787ee8b"
+        },
+        {
+            "type": "java",
             "name": "DemoPolymorphism",
             "request": "launch",
             "mainClass": "DemoPolymorphism",
