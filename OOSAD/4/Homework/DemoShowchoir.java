@@ -1,4 +1,5 @@
-public class DemoShowchoir {
+public class DemoShowchoir 
+{
     public static void main(String[] args)
     {
         Showchoir Jack = new Showchoir();
